@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NexaBlack';
+  src: url('./fonts/Nexa/NexaBlack.otf') format('otf');
+  /* Add more formats and weights if needed */
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url('./fonts/Nexa/NexaXBold.otf') format('otf');
+  /* Add more formats and weights if needed */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('./fonts/Nexa/NexaLight.otf') format('otf');
+  /* Add more formats and weights if needed */
+  font-style: normal;
+}
+
+html, * {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+  text-align: center;
+  font-family: 'NexaLight', sans-serif;
+  color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  max-width: 1024px;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+}
