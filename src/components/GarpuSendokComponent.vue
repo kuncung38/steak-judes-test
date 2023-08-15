@@ -12,6 +12,14 @@
     <img src="@/assets/garpu.svg" />
     <img src="@/assets/sendok.svg" />
     <img src="@/assets/garpu.svg" />
+    <img src="@/assets/sendok.svg" />
+    <img src="@/assets/garpu.svg" />
+    <img src="@/assets/sendok.svg" />
+    <img src="@/assets/garpu.svg" />
+    <img src="@/assets/sendok.svg" />
+    <img src="@/assets/garpu.svg" />
+    <img src="@/assets/sendok.svg" />
+    <img src="@/assets/garpu.svg" />
   </div>
 </template>
 
@@ -20,5 +28,7 @@ img {
   width: 60px;
   height: 300px;
   object-fit: cover;
+  position: relative;
+  /* left: -400px; */
 }
 </style>
