@@ -20,10 +20,10 @@ import GarpuSendokComponentVue from '../components/GarpuSendokComponent.vue';
     <p class="text-3xl font-bold">STEAK MPOK JUDES</p>
     <p class="text-base font-semibold mt-6 px-16">KAMI BERGERAK DI BIDANG F&B DAN SUDAH BERPENGALAMAN</p>
 
-    <!-- <GarpuSendokComponentVue /> -->
-    <div class="w-[100] my-24">
+    <GarpuSendokComponentVue />
+    <!-- <div class="w-[100] my-24">
       <img src="@/assets/garpusendok.svg" alt="garpu-sendok" class="h-full scale-[1.4]" />
-    </div>
+    </div> -->
 
     <p class="text-3xl font-extrabold">VISI DAN MISI</p>
     <p class="text-3xl font-extrabold">STEAK MPOK JUDES</p>
