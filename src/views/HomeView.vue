@@ -43,11 +43,11 @@ import FloatingButtonWhatsapp from '../components/FloatingButtonWhatsapp.vue'
     <p class="text-3xl font-extrabold mb-6">MENU ANDALAN STEAK JUDES</p>
 
     <div class="mb-16">
-      <MenuPic :imgPath="'steak.webp'" :textTitle="'STEAK'" />
-      <MenuPic :imgPath="'makaroni.webp'" :textTitle="'MAC & CHEESE'" />
-      <MenuPic :imgPath="'steakchicken.webp'" :textTitle="'CHICKEN STEAK'" />
-      <MenuPic :imgPath="'carbonara.webp'" :textTitle="'SPAGHETTI CARBONARA'" />
-      <MenuPic :imgPath="'bolognese.webp'" :textTitle="'SPAGHETTI BOLOGNESE'" />
+      <MenuPic :imgPath="'https://i.ibb.co/ZSGTYrD/steak.webp'" :textTitle="'STEAK'" />
+      <MenuPic :imgPath="'https://i.ibb.co/ZfpB7Y3/makaroni.webp'" :textTitle="'MAC & CHEESE'" />
+      <MenuPic :imgPath="'https://i.ibb.co/Dt7M7wD/steakchicken.webp'" :textTitle="'CHICKEN STEAK'" />
+      <MenuPic :imgPath="'https://i.ibb.co/2NK7yWy/carbonara.webp'" :textTitle="'SPAGHETTI CARBONARA'" />
+      <MenuPic :imgPath="'https://i.ibb.co/dM5FwdV/bolognese.webp'" :textTitle="'SPAGHETTI BOLOGNESE'" />
     </div>
 
     <h1 class="text-6xl font-extrabold px-8 mb-8">ALL MENUS</h1>

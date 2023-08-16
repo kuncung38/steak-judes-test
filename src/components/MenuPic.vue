@@ -1,18 +1,13 @@
 <script setup>
 import { computed } from 'vue'
 const props = defineProps(['textTitle', 'imgPath'])
-console.log(props.textTitle)
-
-const getImagePath = (imgPath) => {
-  return `/src/assets/${imgPath}`;
-};
 
 const content = computed(() => `"${props.textTitle}"`)
 </script>
 
 <template>
   <div class="flex overflow-hidden w-full aspect-[1.8/1]">
-    <img class="w-full" :src="getImagePath(imgPath)" :alt="textTitle" />
+    <img class="w-full" :src="imgPath" :alt="textTitle" />
   </div>
 </template>
 
